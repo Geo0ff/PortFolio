@@ -137,6 +137,7 @@ span {
   .small {
     grid-row:span 1;
     grid-column: span 1;
+    
   }
   .medium { 
     grid-row:span 2;
