@@ -214,5 +214,26 @@ h3 {
   .portfolio { 
     width: 90%;
   text-align: center;
+  } 
+  .medium { 
+    grid-row:span 2;
+    grid-column: span 2;
+    font-size: 50%;
   }
+  .small {
+    grid-row:span 1;
+    grid-column: span 1;
+    font-size: 50%;
+    }
+    .tall {
+      grid-row: span 3;
+      grid-column: span 2;
+      font-size: 50%;
+    }
+    .wide {
+      grid-row: span 2;
+      grid-column: span 3;
+      font-size: 50%;
+      
+    }
 }
