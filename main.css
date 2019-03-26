@@ -184,13 +184,7 @@ background-color: coral ;
 }
 
 @media screen and (max-width: 991px) { 
-  .grid-container {
-    width: 90%;
-
-  }
-  .wrapper {
-  width: 90%;
-}
+  
 h1 { 
   width: 90%;
   text-align: center;
@@ -234,6 +228,17 @@ h3 {
       grid-row: span 2;
       grid-column: span 3;
       font-size: 50%;
-      
+      }
+      .bgImage {
+        align-items: center;
+      }
+      .grid-container {
+        width: 90%;
+        align-items: center;
+    
+      }
+      .wrapper {
+      width: 90%;
+      align-items: center;
     }
 }
