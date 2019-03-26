@@ -185,10 +185,10 @@ span {
   width: 900px;
   margin: auto;
   box-sizing: border-box;
-  background-color: coral ;
+  background-image: url(./classiccarbeetle.jpg);
 }
 .contact-background {
-  height: 200px;
+  height: 400px;
   width: 900px;
   margin: auto;
   box-sizing: border-box;
