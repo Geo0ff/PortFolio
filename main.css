@@ -136,6 +136,7 @@ span {
   .large { 
     grid-row: span 3; 
     grid-column: span 3;
+    
   }
   .tall {
     grid-row: span 3;
