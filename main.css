@@ -183,20 +183,36 @@ box-sizing: border-box;
 background-color: coral ;
 }
 
-@media only screen and (max-width: 991px) { 
+@media screen and (max-width: 991px) { 
   .grid-container {
     width: 90%;
+
   }
   .wrapper {
   width: 90%;
 }
 h1 { 
   width: 90%;
+  text-align: center;
 }
 h2 { 
   width: 90%;
+  text-align: center;
+  
 }
 h3 { 
   width: 90%;
+  text-align: center;
 }
+}
+
+@media screen and (max-width: 768px) {
+  .main-content {
+  width: 90%;
+  text-align: center;
+  }
+  .portfolio { 
+    width: 90%;
+  text-align: center;
+  }
 }
