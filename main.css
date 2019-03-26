@@ -24,16 +24,16 @@ color: coral;
 
 }
 h1 { 
-  position: absolute;
-  top: 150px;
-  right: 550px;;
+position: absolute;
+top: 150px;
+right: 550px;;
 }
 h3 { 
-  position: absolute;
-  top: 100px;
-  left: 300px;
-  font-size: 30px;
-  
+position: absolute;
+top: 100px;
+left: 300px;
+font-size: 30px;
+
 }
 /* Background-Image index.html */
 .bgImage {
@@ -49,151 +49,154 @@ position:absolute;
 height: 100%;
 width: 100%;
 }
-
-
-@media screen and (max-width: 900px) {
-
-  .bgImage {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    padding: 0px;
-    }
-    .HomeImg {
-    position:absolute;
-    height: 100%;
-    width: 100%;
-    }
-
-    
-}
 /* General style */
 * {
-  box-sizing: border-box;
+box-sizing: border-box;
 }
 body {
-  background: rgb(54, 56, 56);
-  color: lightslategray;
-  font-family: sans-serif;
-  font-size: 1.2rem;
-  line-height: 1.45;
-  display: flex;
-  flex-wrap: wrap;
+background: rgb(54, 56, 56);
+color: lightslategray;
+font-family: sans-serif;
+font-size: 1.2rem;
+line-height: 1.45;
+display: flex;
+flex-wrap: wrap;
 }
 
 /* Navigation */
 .sidebar { 
-  background: darkslategray;
-  flex:1 1 20%;
-  min-width:300px;
-  padding: 3em;
+background: darkslategray;
+flex:1 1 20%;
+min-width:300px;
+padding: 3em;
 }
 .logo {
-  text-transform: uppercase;
-  margin-bottom: 2em;
+text-transform: uppercase;
+margin-bottom: 2em;
 }
 span { 
-  font-weight: bold;
+font-weight: bold;
 }
 .nav-item {
+color: coral;
+text-decoration: none;
+font-size: 1.7rem;
+display: inline-block;
+margin-right: 2em;
+}
+.active {
   color: coral;
-  text-decoration: none;
-  font-size: 1.7rem;
-  display: inline-block;
-  margin-right: 2em;
-  }
-  .active {
-    color: coral;
-  }
-  /* Main Content area */
-  .main-content {
-    padding: 10%;
-    flex:1 1 80%; 
-    min-height: 100vh;
-  }
+}
+/* Main Content area */
+.main-content {
+  padding: 10%;
+  flex:1 1 80%; 
+  min-height: 100vh;
+}
 
-  /***** Portfolio*/
+/***** Portfolio*/
 
-  .portfolio {
-    display: grid;
-    height: 100%;
-    grid-template-rows: repeat(8, 1fr);
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 20px;
-  }
+.portfolio {
+  display: grid;
+  height: 100%;
+  grid-template-rows: repeat(8, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+}
 
-  .portfolio-item { 
-    background: coral;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5em;
-    background-size: cover;
-    background-position: top left;
-    position: relative;
-    z-index: 10;
-  }
-  .small {
-    grid-row:span 1;
-    grid-column: span 1;
-    
-  }
-  .medium { 
-    grid-row:span 2;
-    grid-column: span 2;
-
-  }
-  .large { 
-    grid-row: span 3; 
-    grid-column: span 3;
-    
-  }
-  .tall {
-    grid-row: span 3;
-    grid-column: span 2;
-  }
-  .wide {
-    grid-row: span 2;
-    grid-column: span 3;
-    
-  }
-  :hover {
-    color: white;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.85);
-  }
+.portfolio-item { 
+  background: coral;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  background-size: cover;
+  background-position: top left;
+  position: relative;
+  z-index: 10;
   
-  .two {
-    background-image: url(./creative.jpg);
-  }
+}
+.small {
+  grid-row:span 1;
+  grid-column: span 1;
   
-  ::before {
-    content: '';
-    display: block;
-    opacity: 0.8;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    transition: all ease-in-out 300ms;
-    z-index: -1;
-  }
-  ::hover::before {
-    opacity: 0.2;
-  }
+  
+  
+}
+.medium { 
+  grid-row:span 2;
+  grid-column: span 2;
+
+}
+.large { 
+  grid-row: span 3; 
+  grid-column: span 3;
+  
+}
+.tall {
+  grid-row: span 3;
+  grid-column: span 2;
+}
+.wide {
+  grid-row: span 2;
+  grid-column: span 3;
+  
+}
+:hover {
+  color: white;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.85);
+}
+
+.two {
+  background-image: url(./creative.jpg);
+}
+
+::before {
+  content: '';
+  display: block;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: all ease-in-out 300ms;
+  z-index: -1;
+}
+::hover::before {
+  opacity: 0.2;
+}
 
 .background {
-  height: 400px;
-  width: 900px;
-  margin: auto;
-  box-sizing: border-box;
-  background-image: url(./classiccarbeetle.jpg);
+height: 400px;
+width: 900px;
+margin: auto;
+box-sizing: border-box;
+background-image: url(./classiccarbeetle.jpg);
 }
 .contact-background {
-  height: 400px;
-  width: 900px;
-  margin: auto;
-  box-sizing: border-box;
-  background-color: coral ;
+height: 400px;
+width: 900px;
+margin: auto;
+box-sizing: border-box;
+background-color: coral ;
+}
+
+@media only screen and (max-width: 991px) { 
+  .grid-container {
+    width: 90%;
+  }
+  .wrapper {
+  width: 90%;
+}
+h1 { 
+  width: 90%;
+}
+h2 { 
+  width: 90%;
+}
+h2 { 
+  width: 90%;
+}
 }
