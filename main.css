@@ -11,7 +11,7 @@ margin: 0px;
 /*wrapper */
 .wrapper { 
 display: grid;
-position: relative;
+position: absolute;
 bottom: 20px;
 }
 
@@ -183,62 +183,60 @@ box-sizing: border-box;
 background-color: coral ;
 }
 
-@media screen and (max-width: 991px) { 
+@media screen and (max-width: 992px) { 
   
 h1 { 
   width: 90%;
   text-align: center;
+  font-size: 30px;
 }
 h2 { 
   width: 90%;
   text-align: center;
+  font-size: 30px;
   
 }
 h3 { 
   width: 90%;
   text-align: center;
+  font-size: 30px;
 }
 }
 
 @media screen and (max-width: 768px) {
   .main-content {
-  width: 90%;
-  text-align: center;
+   font-size: 70%;
+   align-items: center;
   }
   .portfolio { 
-    width: 90%;
-  text-align: center;
+    font-size: 70%;
+    align-items: center;
   } 
   .medium { 
-    grid-row:span 2;
-    grid-column: span 2;
-    font-size: 50%;
+  
+  font-size: 70%;
   }
   .small {
-    grid-row:span 1;
-    grid-column: span 1;
-    font-size: 50%;
-    }
-    .tall {
-      grid-row: span 3;
-      grid-column: span 2;
-      font-size: 50%;
-    }
-    .wide {
-      grid-row: span 2;
-      grid-column: span 3;
-      font-size: 50%;
-      }
-      .bgImage {
-        align-items: center;
-      }
-      .grid-container {
-        width: 90%;
-        align-items: center;
-    
-      }
-      .wrapper {
-      width: 90%;
-      align-items: center;
-    }
+  
+  font-size: 70%;
+  }
+  .tall {
+  
+  font-size: 70%;
+  }
+  .wide {
+  
+  font-size: 70%;
+  }
+  .bgImage {
+    font-size: 70%;
+  }
+  .grid-container {
+    font-size: 70%;
+  
+ }
+  .wrapper { 
+    font-size: 70%;
+  
 }
+  }
