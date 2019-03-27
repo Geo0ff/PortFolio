@@ -141,32 +141,29 @@ margin: auto;
 box-sizing: border-box;
 background-color: coral ;
 }
-
-
-
 @media screen and (max-width: 768px) {
   .main-content {
-   font-size: 70%;
+   font-size: 90%;
    
   }
   .portfolio { 
-    font-size: 70%;
+    font-size: 90%;
     
   } 
   .medium { 
   
-  font-size: 70%;
+  font-size: 90%;
   }
   .small {
   
-  font-size: 70%;
+  font-size: 90%;
   }
   .tall {
   
-  font-size: 70%;
+  font-size: 90%;
   }
   .wide {
   
-  font-size: 70%;
+  font-size: 90%;
   }
   }
