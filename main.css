@@ -141,6 +141,11 @@ margin: auto;
 box-sizing: border-box;
 background-color: coral ;
 }
+a:link {
+  text-decoration: none;
+}
+
+
 @media screen and (max-width: 768px) {
   .main-content {
    font-size: 90%;
